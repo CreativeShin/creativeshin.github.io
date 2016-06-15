@@ -1,0 +1,70 @@
+
+html{
+	width: 100%;
+}
+body{
+	background: url('https://i.imgsafe.org/0768f27ce1.jpg') no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+	height:100%;
+
+}
+#introWrapper{
+	margin: 0 auto;
+	padding:210px 0;
+	width: 100%;
+	text-align: center;
+	background: url('') no-repeat;
+	
+
+	
+}
+#testimonialsWrapper .container .row{
+	text-align: center;
+
+}
+#aboutMeWrapper{
+	background:rgb(25,25,25);
+	background:rgba(0,0,0,0.85);
+	width: 100%;
+	color: #FFFFFF;
+	padding:100px 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+#testimonialsWrapper{
+	padding:60px;
+	text-align: center;
+
+}
+#testimonialsWrapper .container .row img{
+	margin:20px;
+}
+#myWorkWrapper{
+
+	padding:60px;
+	text-align: center;
+}
+#wings{
+	width:320px;
+	height: 160px;
+}
+#contactMeWrapper{
+	padding:100px 0;
+	width:100%;
+	background:rgb(25,25,25);
+	background:rgba(0,0,0,0.85) ;
+	
+}
+#testimonialsWrapper .container{background: url('https://i.imgsafe.org/090745745d.jpg') top left repeat;
+}
+#myWorkWrapper .container{background: url('https://i.imgsafe.org/090745745d.jpg') top left repeat;
+}
+.navbar-inverse{
+	background-color: rgba(50,0,25,0.5);
+	border:none;
+}
+div li a:hover{
+	border-bottom: 2px solid #ddd;
+}
