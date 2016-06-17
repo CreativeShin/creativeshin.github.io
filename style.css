@@ -68,3 +68,6 @@ body{
 div li a:hover{
 	border-bottom: 2px solid #ddd;
 }
+#DAPPlugin{
+display:none;
+}
