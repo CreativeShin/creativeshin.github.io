@@ -1,0 +1,52 @@
+.container-fluid{
+  height: 100vh;
+}
+h1{
+  text-align: center;
+  padding-top: 40%;
+  font-family: 'Monoton', cursive;
+  font-weight: 400;
+}
+p{
+font-family: 'Droid Sans Mono', monospace;
+  color: #000;
+}
+.content{
+  background: url('img.jpg') no-repeat center;
+/*   background: rgba(0,0,0,0.5); */
+  background-size: cover;
+  height: 100vh;
+  color: #333;
+  font-size: 18px;
+
+}
+h2{
+/*   padding: 10px; */
+/*   text-transform: uppercase; */
+  margin-bottom: 10px;
+font-family: 'Droid Sans Mono', monospace;
+/*     text-shadow: 4px 4px 8px #777; */
+}
+.about{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10%;
+
+}
+.icons{
+  font-size: 30px;
+  text-align: center;
+}
+@media screen and  (max-width: 768px){
+  .icons{
+    margin-bottom: 5%;
+  }
+  .col-sm-8{
+    padding: 0;
+    margin: 0;
+  }
+  h1{
+    padding-top: 20%;
+    margin-bottom: 10%;
+  }
+}
