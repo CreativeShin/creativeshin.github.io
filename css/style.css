@@ -1,52 +1,70 @@
-.container-fluid{
-  height: 100vh;
+body{
+  background: url('img.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: monospace;
+  font-size: 15px;
 }
+nav li{
+  list-style-type: none;
+  padding: 10px 10px 5px 10px;
+}
+
+.left{
+  float: left;
+}
+
+a{
+  color: #333;
+  transition: all 0.2s;
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+a:visited, a:focus{
+  text-decoration: none;
+}
+.slide{
+  display: block;
+  width: 0;
+  height:2px;
+  background: #000;
+  transition: width 0.2s;
+}
+.clearfix{
+  clear: both;
+}
+
 h1{
   text-align: center;
-  padding-top: 40%;
-  font-family: 'Monoton', cursive;
-  font-weight: 400;
+  padding-top: 20%;
 }
-p{
-font-family: 'Droid Sans Mono', monospace;
-  color: #000;
+#about{
+  background: rgba(0,0,0,0.1);
+  padding: 5px;
 }
-.content{
-  background: url('img.jpg') no-repeat center;
-/*   background: rgba(0,0,0,0.5); */
-  background-size: cover;
+.container{
   height: 100vh;
-  color: #333;
-  font-size: 18px;
-
+}
+.red{
+  height: 100px;
+  width: 100px;
+  background: red;
 }
 h2{
-/*   padding: 10px; */
-/*   text-transform: uppercase; */
-  margin-bottom: 10px;
-font-family: 'Droid Sans Mono', monospace;
-/*     text-shadow: 4px 4px 8px #777; */
-}
-.about{
-  width: 70%;
-  margin: 0 auto;
-  padding-top: 10%;
-
-}
-.icons{
-  font-size: 30px;
   text-align: center;
+  padding-bottom: 5%;
 }
-@media screen and  (max-width: 768px){
-  .icons{
-    margin-bottom: 5%;
-  }
-  .col-sm-8{
-    padding: 0;
-    margin: 0;
-  }
-  h1{
-    padding-top: 20%;
-    margin-bottom: 10%;
+iframe{
+  width: 70%;
+  height: 500px;
+  display: block;
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 768px){
+  iframe{
+    height: 200px;
+    width: 80%;
   }
 }
