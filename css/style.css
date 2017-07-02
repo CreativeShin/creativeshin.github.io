@@ -24,13 +24,13 @@ a:hover{
 a:visited, a:focus{
   text-decoration: none;
 }
-.slide{
+/*.slide{
   display: block;
   width: 0;
   height:2px;
   background: #000;
   transition: width 0.2s;
-}
+}*/
 .clearfix{
   clear: both;
 }
@@ -60,6 +60,30 @@ iframe{
   height: 500px;
   display: block;
   margin: 50px auto;
+}
+
+.hover-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.hover-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+iframe{
+   overflow: hidden;
+}
+.thumbnail-heading{
+  text-align: center;
+}
+
+.change-bg{
+  background: rgba(0,0,0,0.1);
 }
 
 @media screen and (max-width: 768px){

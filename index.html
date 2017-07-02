@@ -10,11 +10,11 @@
   <title>Portfolio</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container transition">
     <nav>
-      <li class="left"><a href="https://github.com/CreativeShin" target="_blank"><i class="fa fa-github"></i> GitHub</a><span class="slide"><span></li>
-      <li class="left"><a href="https://www.freecodecamp.com/creativeshin" target="_blank"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a><span class="slide"><span></li>
-        <li class="left"><a href="#portfolio" >Portfolio</a><span class="slide"><span></li>
+      <li class="left"><a href="https://github.com/CreativeShin" target="_blank" class="hover-link"><i class="fa fa-github"></i> GitHub</a></li>
+      <li class="left"><a href="https://www.freecodecamp.com/creativeshin" target="_blank" class="hover-link"><i class="fa fa-free-code-camp" class="hover-link"></i> FreeCodeCamp</a></li>
+        <li class="left"><a href="#portfolio" class="hover-link">Portfolio</a></li>
     </nav>
     <div class="clearfix"></div>
     <div id="home">
@@ -24,19 +24,48 @@
     <p>Web Developer, currently in training who mainly specializes in JavaScript and it's frameworks. Some of the FrontEnd framework I use are Bootstrap and Semantic UI. For BackEnd, which I recently started learning, I use NodeJS and MongoDB.</p>
   </div>
   </div>
-  <div class="container">
+  <div class="container transition change-bg">
     <div id="portfolio">
       <h2>Portfolio</h2>
-      <iframe src="https://codepen.io/CreativeShin/full/pwEKQo/" frameborder="0"></iframe>
-      <iframe src="https://codepen.io/CreativeShin/full/JJGmvZ/" frameborder="0"></iframe>
-      <iframe src="https://codepen.io/CreativeShin/full/dRooZb/" frameborder="0"></iframe>
-      <iframe src="https://codepen.io/CreativeShin/full/weKLgq/" frameborder="0"></iframe>
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <p class="thumbnail-heading">Twitch Status</p>
+          <a href="https://codepen.io/CreativeShin/full/pwEKQo/" target="_blank" class="thumbnail">
+            <img src="css/img1.jpg" alt="twitch status">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <p class="thumbnail-heading">Wikipedia Search</p>
+          <a href="https://codepen.io/CreativeShin/full/JJGmvZ/" target="_blank" class="thumbnail">
+            <img src="css/img2.jpg" alt="Wikipedia Search">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <p class="thumbnail-heading">Random Quote Machine</p>
+          <a href="https://codepen.io/CreativeShin/full/dRooZb/" target="_blank"  class="thumbnail">
+            <img src="css/img3.jpg" alt="Random Quote Machine">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <p class="thumbnail-heading">Weather Forecast</p>
+          <a  href="https://codepen.io/CreativeShin/full/weKLgq/" target="_blank" class="thumbnail">
+            <img src="css/img4.jpg" alt="Weather Forecast">
+          </a>
+        </div>
+      </div>
     </div>
   </div>
+  <!-- <footer class="container-fluid">
+    <div>
+      <p style="text-align: center;">All rights reserved | &copy; CreativeShin</p>
+    </div>
+  </footer> -->
+
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="script/script.js"></script>
 </body>
 </html>
